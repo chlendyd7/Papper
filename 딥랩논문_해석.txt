@@ -1,0 +1,17 @@
+v3+는 v3에 특히 객체 바운더리를 segmentation을 정제하는 간단,효과 적인 디코더 모듈을 붙혔다
+
+Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation
+시맨틱 이미지 분할을 위한 아톰 분리형 컨볼루션 인코더-디코더
+
+Abstract
+Spatial pyramid pooling module or encode-decoder structure are used in deep neural networks for semantic segmentation task.
+공간 피라미드 풀링 모듈 또는 인코딩-디코더 구조는 의미 분할 작업을 위한 심층 신경망에 사용된다
+gradually 점차적으로
+spatial
+
+1 Introduction
+In this work, we consider two types of neural networks that use spatial pyramid pooling module or
+encoder-decoder structure for semantic segmentation
+본 연구에서는 공간 피라미드 풀링 모듈을 사용하는 두 가지 유형의 신경망을 고려한다 for semantic segmentation
+one captures rich contextual information by pooling features at different resolution while the latter one is able to obtain sharp object boundaries
+하나는 다른 해상도에서 기능을 풀링함으로써 풍부한 상황 정보를 포착하는 반면, 후자는 날카로운 객체 경계를 얻을 수 있다
