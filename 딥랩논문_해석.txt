@@ -28,3 +28,8 @@ Spatial Pyramid Pooling 또는 ASPP: 마지막 feature maps에 풍부한 의미�
  
  concat: 여러개를 합치기
  ASPP기법:
+ 
+ 병목현상 > upsampling 하기 위해 decoding 인수분해, 쌍선형 업샘플링
+ 해상도 유지하면 괜찮은데 졸라 많이 든다
+ 출력해상도 선택 가능하다
+ xception 백본 사용
