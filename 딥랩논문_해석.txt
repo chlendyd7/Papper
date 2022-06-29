@@ -17,3 +17,14 @@ one captures rich contextual information by pooling features at different resolu
 하나는 다른 해상도에서 기능을 풀링함으로써 풍부한 상황 정보를 포착하는 반면, 후자는 날카로운 객체 경계를 얻을 수 있다
 
 그렇다 그것은 어렵다
+
+Spatial Pyramid Pooling 또는 ASPP: 마지막 feature maps에 풍부한 의미의 정보가 인코딩 되어있음에도 네트워크 백본 에서 스트라이딩 작업
+
+ atrous convolution을 통해 추출된 인코더 특징의 해상도를 임의로 제어할 수 있습니다
+ 깊이별 분리 가능한 컨볼루션을 적용
+ Depthwise separable convolution
+ 
+ 3.1 Atrous Convolution이 있는 인코더-디코더
+ 
+ concat: 여러개를 합치기
+ ASPP기법:
