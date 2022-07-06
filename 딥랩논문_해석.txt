@@ -33,3 +33,12 @@ Spatial Pyramid Pooling 또는 ASPP: 마지막 feature maps에 풍부한 의미�
  해상도 유지하면 괜찮은데 졸라 많이 든다
  출력해상도 선택 가능하다
  xception 백본 사용
+
+
+
+ The encoder module encodes multi-scale contextual information by applying atrous convolution at multiple scales
+인코더 모듈은 여러 스케일의 트러스 컨볼루션을 적용하여 다중 스케일의 상황별 정보를 인코딩합니다.
+while the simple yet effective decoder module refines the segmentation results along object boundaries.
+단순하지만 효과적인 디코더 모듈은 객체 경계를 따라 분할 결과를 세분화한다.
+
+Depthwise separable convolution:
